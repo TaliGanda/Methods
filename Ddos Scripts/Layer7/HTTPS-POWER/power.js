@@ -1,9 +1,3 @@
-process.on('uncaughtException', function(er) {
-    //console.log(er);
-});
-process.on('unhandledRejection', function(er) {
-    //console.log(er);
-});
 require('events').EventEmitter.defaultMaxListeners = 0;
 const fs = require('fs');
 const url = require('url');
